@@ -1,4 +1,5 @@
 #README Práctica 3 - GitHub y repositorio remoto
+##Parte 1: Preparación del Proyecto
 ##1. Crear directorios y archivos:
 -Desde tu carpeta principal (~/), crea un directorio llamado GitApellido1Nombre2425.
 -Dentro del directorio GitApellido1Nombre2425, crea una subcarpeta llamada src usando rutas relativas.
@@ -9,10 +10,29 @@
 ![ex2](./img/img_ex2.1.png)
 -Agrega un archivo .gitignore y configúralo para ignorar archivos de log y carpetas de configuración temporales.
 ![ex2](./img/img_ex2.2.png)
--¿Qué es el archivo .gitignore y para que sirve?
+**¿Qué es el archivo .gitignore y para que sirve?** EL archivo .gitignore en un archivo oculto para indicar lo que tiene que indicar el respositorio.
 -Crea una estructura básica de web index.html, style.css, main.js.
 ![ex2](./img/img_ex2.3.png)
 ##3. Primera confirmación:
 -Haz un git add de todos los archivos y realiza un commit inicial con el mensaje:
 Inicio del proyecto con README.md y estructura básica.
+![ex3](./img/img_ex3.png)
+##Parte 2: Colaboración en Equipo
+##1.Configura del repositorio remoto:
+
+-Entra en GitHub y crea un repositorio.
+**¿Qué pasa si creo un repositorio con el archivo README.md desde GitHub?** AL crear un respositorio con readme deja de ser un repositorio vacio y se muestra unicamente el readme
+**¿Qué pasa si crea un repositorio sin el archivo README.md desde GitHub?** Al crear un respositorio sin readme el repositorio se crea vacio, entonces solo se muestra el enlace para poder clonarlo 
+-Explica las diferencias entre las 2 preguntas anteriores.
+-Indica que comandos te da GitHub al crear un repositorio. Los encontrarás en el apartado …or create a new repository on the command line 
+	echo "# Pr-ctica-3---GitHub-y-repositorio-remoto" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/Guillermo-Mir/Pr-ctica-3---GitHub-y-repositorio-remoto.git
+	git push -u origin main
+-Vincula el repositorio remoto con el repositorio local
+![ex3](./img/img_ex3.1.png)
+
 
