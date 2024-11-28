@@ -35,4 +35,13 @@ Inicio del proyecto con README.md y estructura básica.
 -Vincula el repositorio remoto con el repositorio local
 ![ex3](./img/img_ex3.1.png)
 
+##2.Actualización del Proyecto:
+-Crea una nueva rama llamada feature/documentacion y cámbiate a ella.
+![ex3](./img/img2_ex2.1.png)
+-Cambia a la nueva rama:
+-Crea un archivo docs.md en la carpeta raíz. Escribe un resumen de las funcionalidades del proyecto.
+![ex3](./img/img2_ex2.3.png)
+-Haz un commit con el mensaje:Agregada documentación inicial del proyecto.
+-Cambia a la rama main y usa git diff para comparar las diferencias entre main y feature/documentacion.
+
 
