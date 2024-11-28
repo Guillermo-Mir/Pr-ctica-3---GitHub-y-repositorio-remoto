@@ -43,3 +43,6 @@ Inicio del proyecto con README.md y estructura básica.
 ![ex3](./img/img2_ex2.3.1.png)
 -Cambia a la rama main y usa git diff para comparar las diferencias entre main y feature/documentacion
 ![ex3](./img/img2_ex2.4.png)
+##3.Sincronización:
+Desde la rama main, realiza un git pull para simular la descarga de cambios del remoto. Si hay conflictos, resuélvelos.
+![ex3](./img/img2_ex3.png)
