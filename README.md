@@ -59,24 +59,15 @@ Desde la rama main, realiza un git pull para simular la descarga de cambios del 
 git status = git s
 git log --oneline --decorate --all --graph = git lg
 git branch = git br
-
-<<<<<<< HEAD
-##2.Borrado y recuperación:
--Borra el archivo src/app.py usando un comando de terminal. Recupera el archivo con el comando necesario, lo vimos la semana pasada.
-![ex3.1](./img/img3_ex2.png)
-##3.Combina ramas:
 -Desde main, haz un merge de feature/documentacion.
 -Usa log o un alias para verificar los cambios realizados y el historial.
-=======
-##2.Actualización del Proyecto:
--Crea una nueva rama llamada feature/documentacion y cámbiate a ella.
-![ex3](./img/img2_ex2.1.png)
--Cambia a la nueva rama:
--Crea un archivo docs.md en la carpeta raíz. Escribe un resumen de las funcionalidades del proyecto.
-![ex3](./img/img2_ex2.3.png)
--Haz un commit con el mensaje:Agregada documentación inicial del proyecto.
-![ex3](./img/img2_ex2.3.1.png)
--Cambia a la rama main y usa git diff para comparar las diferencias entre main y feature/documentacion.
+![ex3](./img/img2_ex3.png)
+##Parte 4: Entrega del Proyecto
+##1.Últimos pasos:
 
+Asegúrate de que todos los archivos estén en su lugar y realiza un push final al remoto.
+Realiza una limpieza eliminando la rama feature/documentacion.
+##2.Explora el proyecto desde el terminal:
 
->>>>>>> feature/documentacion
+Usa el comando necesario de Linux para listar el contenido de cada directorio.
+Muestra el contenido de los archivos finales con el comando necesario de Linux.
