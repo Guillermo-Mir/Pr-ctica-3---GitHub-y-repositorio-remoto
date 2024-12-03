@@ -52,12 +52,17 @@ Desde la rama main, realiza un git pull para simular la descarga de cambios del 
 ![ex3.1](./img/img3_ex1.1_a.png)
 ![ex3.1](./img/img3_ex1.1_b.png)
 -Haz un add y luego un commit. Verifica su estado con  status o con algún comando alias que hayas creado tú.
+![ex3.1](./img/img3_ex1.2.png)
 -Visualiza el historial de commit con log o con algún comando alias que hayas creado tú.
+![ex3.1](./img/img3_ex1.3.png)
 -Si has utilizado comandos alias, indica el equivalente al comando alias. Por ejemplo, mi comando alias git s es igual al comando git status --short.
+git status = git s
+git log --oneline --decorate --all --graph = git lg
+git branch = git br
 
 ##2.Borrado y recuperación:
 -Borra el archivo src/app.py usando un comando de terminal. Recupera el archivo con el comando necesario, lo vimos la semana pasada.
-
+![ex3.1](./img/img3_ex2.png)
 ##3.Combina ramas:
 -Desde main, haz un merge de feature/documentacion.
 -Usa log o un alias para verificar los cambios realizados y el historial.
