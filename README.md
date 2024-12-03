@@ -67,7 +67,9 @@ git branch = git br
 
 Asegúrate de que todos los archivos estén en su lugar y realiza un push final al remoto.
 Realiza una limpieza eliminando la rama feature/documentacion.
+![ex4](./img/img4_ex1.2.png)
 ##2.Explora el proyecto desde el terminal:
-
 Usa el comando necesario de Linux para listar el contenido de cada directorio.
 Muestra el contenido de los archivos finales con el comando necesario de Linux.
+![ex4](./img/img4_ex2.1.png)
+![ex4](./img/img4_ex2.2.png)
