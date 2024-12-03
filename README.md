@@ -46,3 +46,18 @@ Inicio del proyecto con README.md y estructura básica.
 ##3.Sincronización:
 Desde la rama main, realiza un git pull para simular la descarga de cambios del remoto. Si hay conflictos, resuélvelos.
 ![ex2.1](./img/img2_ex3.png)
+##Parte 3: Gestión de Archivos y Cambios
+##1.Ediciones rápidas:
+-Crea un nuevo archivo llamado src/app.py con un mensaje básico (print("Hola, mundo!")).
+![ex3.1](./img/img3_ex1.1_a.png)
+![ex3.1](./img/img3_ex1.1_b.png)
+-Haz un add y luego un commit. Verifica su estado con  status o con algún comando alias que hayas creado tú.
+-Visualiza el historial de commit con log o con algún comando alias que hayas creado tú.
+-Si has utilizado comandos alias, indica el equivalente al comando alias. Por ejemplo, mi comando alias git s es igual al comando git status --short.
+
+##2.Borrado y recuperación:
+-Borra el archivo src/app.py usando un comando de terminal. Recupera el archivo con el comando necesario, lo vimos la semana pasada.
+
+##3.Combina ramas:
+-Desde main, haz un merge de feature/documentacion.
+-Usa log o un alias para verificar los cambios realizados y el historial.
